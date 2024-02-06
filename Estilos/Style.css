@@ -119,3 +119,79 @@ form{
     cursor: pointer;
     box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
 }
+
+/*Footer*/
+
+footer{
+    background:rgba(12, 112, 242, 0.5) ;
+    text-align: center;
+    
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+h5{
+    font-size: 800;
+    font-family: inter;
+    margin-bottom: 10px;
+    background: rgb(48,48,48);
+    color: white;
+    border-radius: 15px;
+    padding: 08px 2px 08px 2px;
+}
+
+nav{
+    height: 330px;
+}
+
+ul {
+    list-style-type: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin: 20px 0px 20px 0px ;
+    font-family: inter;
+}
+
+.navigation a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover{
+    color: #0c70f2;
+    background: rgb(48,48,48);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.Address{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inter;
+    color: white;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+}
+.terms a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inter;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
