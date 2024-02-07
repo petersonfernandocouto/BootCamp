@@ -1,0 +1,96 @@
+@media only screen and (max-width: 600px){
+
+    body{background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 14.00%, rgba(12, 112, 242, 0) 24.84%), #303030;}
+
+    #menu{
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+    }
+
+    #Linksmenu{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #Linksmenu a{
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+
+    .Login{
+        width: 100%;
+        margin-right: 0%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    /*seletor*/
+
+    .buttonSection{
+        width: 100%;
+    }
+
+    .textField input{
+        width: 95%;
+    }
+
+    #selectors h1{
+        font-size: 30px;
+    }
+
+    #selectors h2{
+        font-size: 16px;
+    }
+
+    .ChangeBackGround{
+        padding: 1px;
+    }
+    
+    .terms a{
+        margin-top: 70px;
+        font-size: 12px;
+    }
+
+    .navigation{
+        flex-direction: column;
+    }
+
+    .Address h4{
+        margin-top: 0px;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 375px){
+
+    #Linksmenu a{
+        font-size: 20px;
+    }
+
+    #selectors h2{
+        font-size: 12px;
+    }
+
+    label{
+        font-size:14px;
+        
+    }
+
+    .textField{
+        margin-left: 0px;
+    }
+
+
+    .Checkbox{
+        margin-left: 0px;
+    }
+    
+    .Address h4{
+        font-size: 14px;
+        
+    }
+    
+}

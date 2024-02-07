@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 23.00%, rgba(12, 112, 242, 0) 24.84%), #303030;
     background-repeat: no-repeat;
 }
 
@@ -171,7 +171,6 @@ li{
     background: rgb(48,48,48);
     padding: 5px;
     border-radius: 10px;
-
 }
 
 .Address{
